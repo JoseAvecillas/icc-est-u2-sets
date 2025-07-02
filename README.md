@@ -13,6 +13,7 @@
 
 ## 🛠️ Descripción
 
+![Texto alternativo](Terminal.png)
 
 ---
 

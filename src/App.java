@@ -1,22 +1,32 @@
 import java.util.Set;
 import controllers.Sets;
+import controllers.ContactoController;
 
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
         Sets sets = new Sets();
+        System.out.println("----------------------------------------------------");
+        System.out.println("Agenda ordenada por apellido y nombre");
+        ContactoController contacto = new ContactoController();
 
-        System.out.println("\n--- Usando HashSet ---");
-        runHashSet(sets);
-        System.out.println("\n--- Usando LinkedHashSet ---");
-        runLinkedHashSet(sets);
-        System.out.println("\n--- Usando TreeSet ---");
-        runTreeSet(sets);
-        System.out.println("\n--- Usando TreeSet con comparador ---");
-        runTreeSetConComparador(sets);
-        System.out.println("\n--- Usando TreeSet con comparador Invertido ---");
-        runTreeSetConComparadorInvertido(sets);
+
+
+
+        // System.out.println("\n--- Usando HashSet ---");
+        // runHashSet(sets);
+        // System.out.println("\n--- Usando LinkedHashSet ---");
+        // runLinkedHashSet(sets);
+        // System.out.println("\n--- Usando TreeSet ---");
+        // runTreeSet(sets);
+        // System.out.println("\n--- Usando TreeSet con comparador ---");
+        // runTreeSetConComparador(sets);
+        // System.out.println("\n--- Usando TreeSet con comparador Invertido ---");
+        // runTreeSetConComparadorInvertido(sets);
+        
+
+
     }
 
     public static void runHashSet(Sets setDado) {
@@ -58,4 +68,7 @@ public class App {
         }
         System.out.println("----------------------------------");
     }
+
+
+
 }
