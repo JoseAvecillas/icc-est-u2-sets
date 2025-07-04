@@ -14,6 +14,7 @@
 ## 🛠️ Descripción
 
 ![Texto alternativo](Terminal.png)
+![Texto alternativo](Terminal2.png)
 
 ---
 
